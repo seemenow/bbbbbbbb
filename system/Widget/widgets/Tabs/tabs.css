@@ -1,0 +1,28 @@
+#navtabs {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    border-bottom: 1px solid #E5E5E5;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#navtabs li {
+    display: inline;
+    cursor: pointer;
+    line-height: 3em;
+    padding: 1em 20px;
+}
+
+.tabs {
+    clear: both;
+}
+
+#navtabs li:hover {
+    background-color: #F5F5F5;
+}
+
+#navtabs li.on {
+    font-weight: bold;
+}
